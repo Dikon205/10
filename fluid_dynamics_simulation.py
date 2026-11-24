@@ -353,7 +353,7 @@ class FluidRenderer:
         self._half_surf: Optional[pygame.Surface] = None
         self._half_tex: Optional[Texture] = None
 
-        self._speed_col = np.zeros((10000, 3), dtype=np.float32)
+        self._speed_col = np.zeros((20000, 3), dtype=np.float32)
         self.resize(max(64, width), max(64, height))
 
     @property
