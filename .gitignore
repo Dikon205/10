@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.nbc
+*.nbi
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# PyInstaller / Executable builds
+build/
+dist/
+*.spec
+
+# Aider chat logs
+.aider*
+.aider.chat.history.md
+.aider.input.history
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

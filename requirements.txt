@@ -1,0 +1,5 @@
+# Core dependencies for Fluid Simulator
+pygame-ce>=2.5.0
+numpy>=1.26.0,<2.0.0
+numba>=0.60.0
+scipy>=1.14.0
