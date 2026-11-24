@@ -16,8 +16,8 @@ Bounds = Tuple[float, float, float, float]
 
 def _calibrate_rest_number_density(h: float, spacing: float) -> float:
     """Compute interior rest number density theta0 for (1 - u^2)^3 kernel."""
-    xs = np.arange(0.0, 140.0, spacing)
-    ys = np.arange(0.0, 140.0, spacing)
+    xs = np.arange(0.0, 140.1, spacing)
+    ys = np.arange(0.0, 140.1, spacing)
     gx, gy = np.meshgrid(xs, ys)
     pts = np.column_stack([gx.ravel(), gy.ravel()])
     dx = pts[:, 0:1] - pts[:, 0][None, :]
